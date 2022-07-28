@@ -91,7 +91,7 @@ function App() {
             handleChoice={handleChoice}
             flipped={card === choiceOne || card === choiceTwo || card.matched}
             disabled={disabled}
-          />
+          ></SingleCard>
         ))}
       </div>
       <p>Turns: {turns}</p>
