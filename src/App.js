@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import SingleCard from "./SingleCard";
+
+import SingleCard from "./SingleCard.js";
 import chrisImg2 from "./img/chris2.jpg";
 import carlosImg2 from "./img/carlos2.jpg";
 import davidImg2 from "./img/david2.jpg";
